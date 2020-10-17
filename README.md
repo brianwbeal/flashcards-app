@@ -4,6 +4,8 @@
 
 ## Overview
 
+<img src="./flashcards-screencap.png">
+
 App uses context, reducer, and React hooks to manage data at the component level and with the browser's localStorage object.
 
 In the <code>src/context</code> directory, the app reducer is defined to handle changes to the app state, based on the dispatch type from the <code>AppContext</code> file. The <code>AppContext</code> file is also where the app's initial state values are declared, and where the <code>AppProvider</code> component is defined. The <code>AppProvider</code> component wraps around the <code>App</code> component to provide data (and access to the reducer) at a global level.
