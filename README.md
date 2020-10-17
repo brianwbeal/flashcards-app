@@ -29,6 +29,7 @@ In the app itself, React hooks are used to read and write data from localStorage
   * JSX
 
 * JavaScript
+  * <code>localStorage</code> web API
   * ES6 arrow functions
   * ES6 destructuring assignment syntax
   * ES6 let, const variables
